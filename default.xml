@@ -14,6 +14,10 @@
            fetch="https://github.com/ResurrectionRemix-Devices"
            revision="oreo" />
 
+  <remote  name="Cairol"
+           fetch="https://github.com/"
+           revision="RR-oreo" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -556,6 +560,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/rr.xml" />
+  <include name="snippets/cairol.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
