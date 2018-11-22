@@ -3,6 +3,7 @@
   <project path="android" name="Cairol/platform_manifest" remote="Cairol" />
   <project path="frameworks/opt/net/wifi" name="Cairol/android_frameworks_opt_net_wifi" remote="Cairol" />
   <project path="packages/apps/Profiles" name="Cairol/android_packages_apps_Profiles" remote="Cairol" />
+  <project path="system/extras/su" name="Cairol/android_system_extras_su" remote="Cairol" />
 
 </manifest>
 
