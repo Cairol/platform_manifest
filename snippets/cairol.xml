@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="android" name="Cairol/platform_manifest" remote="Cairol" />
+  <project path="frameworks/opt/net/wifi" name="Cairol/android_frameworks_opt_net_wifi" remote="Cairol" />
+  <project path="packages/apps/Profiles" name="Cairol/android_packages_apps_Profiles" remote="Cairol" />
 
 </manifest>
 
