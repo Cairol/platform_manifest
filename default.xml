@@ -5,6 +5,10 @@
            fetch=".."
            review="review.lineageos.org" />
 
+  <remote  name="Cairol"
+           fetch="https://github.com/"
+           revision="LOS-Q" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -691,6 +695,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/cairol.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
